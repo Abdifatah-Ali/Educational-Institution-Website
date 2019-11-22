@@ -1,0 +1,174 @@
+/*GLOBAL STYLE APPLYING FOR ANY MARGIN AND PADDING IN THE PAGE */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#f4f4f4;
+}
+
+/*INDIVITAUL STYLE*/
+
+.hold {
+    height: 50px;
+  }
+
+  .logo{
+   float: left;
+    
+  }
+
+  .container {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    overflow: hidden;
+  }
+
+  .section .container {
+    padding: 30px 0 50px 0;
+  }
+
+  .header {
+    line-height: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color:#333;
+  }
+
+  /*STYLING NAV BAR*/
+
+  ul.nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+  ul.nav li {
+    float: left;
+    position: relative;
+  }
+  
+  ul.nav li a {
+    transition: color 0.2s linear;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  ul.nav li:hover a {
+    color: #d2691e;
+  }
+  
+  ul.nav li a {
+    padding: 21px;
+    color: white;
+    text-decoration: initial;
+  }
+
+  /* STYLING SECTION */
+
+.section .slider,
+.section .footer {
+  background-color: rgb(65, 163, 202);                      
+}
+
+.slidercontent {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.hero {
+  font-family: 'Roboto Slab', sans-serif;
+  color: #333;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+h1.hero {
+  font-size: 54px;
+  margin-bottom: 5px;
+}
+
+h2.hero {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+
+.call {
+  color: white;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.call span {
+  display: inline;
+  border: 1px solid #333;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 8px 13px;
+  font-size: 20px;
+  transition: background 0.15s linear;
+}
+
+.call span:hover {
+  background: #d2691e;
+  cursor: pointer;
+}
+
+/*STYLING WELCOME SECTION*/
+
+.container2{
+    width:80%;
+    background-color:#f4f4f4;
+    margin: auto;
+	overflow:hidden;
+}
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.9em;
+}
+
+h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #333;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #f4f4f4;;
+	color:#fff;
+  padding:10px;
+  margin-top:20px;
+  box-sizing: border-box;
+  border-radius: 5px;;
+}
+
+/*STYLING FOOTER*/
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+  padding: 1px;
+  margin-top: 40px;
+  clear: both;
+}
+
