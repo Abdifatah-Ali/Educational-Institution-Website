@@ -119,8 +119,7 @@ h1 {
 }
 
 .section-img {
-	margin-top: 20px;
-	border-radius: 5px;
+	margin-top: 140px;
 }
 
 p {
@@ -159,6 +158,10 @@ footer {
 
 	.main {
 		justify-content: center;
+	}
+	
+	.section-img {
+		margin-top: 15px;
 	}
 }
 
