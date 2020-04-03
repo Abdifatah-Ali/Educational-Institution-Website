@@ -193,7 +193,7 @@ footer {
 }
 
 /*Small screen mobile*/
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 414) {
 	nav ul li {
 		font-size: 15.3px;
 	}
